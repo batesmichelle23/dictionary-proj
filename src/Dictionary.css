@@ -1,6 +1,7 @@
 .Dictionary {
     color: green;
     font-weight: bold;
+    text-align: left;
 }
 
 form {
@@ -9,6 +10,5 @@ form {
 
 .Results {
     color: rgb(76, 46, 243);
-    background: black;
     padding: 5px;
     }
