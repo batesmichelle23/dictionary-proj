@@ -4,5 +4,11 @@
 }
 
 form {
-    margin-top: 10px;
+    margin: 10px;
 }
+
+.Results {
+    color: rgb(76, 46, 243);
+    background: black;
+    padding: 5px;
+    }
