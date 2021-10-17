@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="header">
-          <img src="https://www.seekpng.com/png/detail/65-659383_dictionary-cliparts-nerd-clipart-black-and-white.png" width="200px" />
+          <img src="https://www.seekpng.com/png/detail/65-659383_dictionary-cliparts-nerd-clipart-black-and-white.png" width="200px" alt="searching"/>
           <main>
             <Dictionary />
           </main>
