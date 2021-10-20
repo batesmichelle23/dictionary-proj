@@ -1,11 +1,59 @@
 .Dictionary {
-    color: green;
+    color: rgb(42, 133, 42);
     font-weight: bold;
     text-align: left;
 }
 
-form {
-    margin: 10px;
+.Dictionary h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 20px 10px;
+    color: rgb(0, 0, 0);
+}
+
+.Phonetic a {
+    border: 3px solid #e46161;
+    background-color: #e46161;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Phonetic {
+    font-size: 15px;
+    color: black;
+}
+
+.Meaning .speech {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.Meaning section {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 5px solid #e46161;
+    width: 100%;
+    background-color: #e46161;
+    margin: 20px 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Meaning .title {
+    font-size: 16px;
+    color: white;
+}
+
+.Dictionary input  {
+    width: 35%;
+    background-color: rgb(117, 187, 160);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(11, 12, 12);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
 }
 
 .Results {
@@ -15,4 +63,23 @@ form {
 
 img {
     display: block;
+    margin: 0 auto;
 }
+
+.Synonyms ul {
+    display: block;
+    list-style-type: disc;
+}
+
+.Synonyms li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.Synonyms {
+    padding-left: 0px;
+}
+
+
+
