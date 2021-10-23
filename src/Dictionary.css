@@ -1,5 +1,4 @@
 .Dictionary {
-    color: rgb(42, 133, 42);
     font-weight: bold;
     text-align: left;
 }
@@ -8,19 +7,21 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin: 20px 10px;
-    color: rgb(0, 0, 0);
+    color: #11144c;
 }
 
 .Phonetic a {
-    border: 3px solid #e46161;
-    background-color: #e46161;
-    border-radius: 5px;
+    border: 3px solid #e3e3e3;
+    background-color: #e3e3e3;
+    color: #11144c;
+    border-radius: 10px;
+    margin-right: 5px;
     padding: 3px;
 }
 
 .Phonetic {
     font-size: 15px;
-    color: black;
+    color: #11144c;
 }
 
 .Meaning .speech {
@@ -31,39 +32,30 @@
 .Meaning section {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    border: 5px solid #e46161;
+    border: 5px solid #e3e3e3;
     width: 100%;
-    background-color: #e46161;
+    background-color: #e3e3e3;
     margin: 20px 10px;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
+    color: #ef6c57;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(11, 12, 12);
 }
 
-.Meaning .title {
-    font-size: 16px;
-    color: white;
+body {
+    background: linear-gradient(82deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+
 }
 
 .Dictionary input  {
     width: 35%;
-    background-color: rgb(117, 187, 160);
+    background-color: #e3e3e3;
     border-radius: 10px;
     box-shadow: 5px 5px rgb(11, 12, 12);
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
-}
-
-.Results {
-    color: rgb(76, 46, 243);
-    padding: 5px;
-    }
-
-img {
-    display: block;
-    margin: 0 auto;
 }
 
 .Synonyms ul {
@@ -81,5 +73,11 @@ img {
     padding-left: 0px;
 }
 
+.App h1 {
+    color: #11144c;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
 
 

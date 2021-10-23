@@ -1,8 +1,14 @@
 .Photos img {
     border-radius: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
-.Photos .Photos {
-    background-color: rgb(57, 212, 37);
+.Photos .row {
+    background-color: #e3e3e3;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(11, 12, 12);
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 5px;
 }

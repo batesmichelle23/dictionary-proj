@@ -8,7 +8,7 @@ export default function Meaning(props) {
                 return (
                     <div key={index}>
                         <section>
-                        <p>
+                        <div>
                             <div className="def">
                                 <div className="speech">
                                 {props.meaning.partOfSpeech}
@@ -23,7 +23,7 @@ export default function Meaning(props) {
                                 </div>
                                 <br />
                             <Synonyms synonyms={definition.synonyms} />
-                        </p>
+                        </div>
                         </section>
                     </div>
                 );
