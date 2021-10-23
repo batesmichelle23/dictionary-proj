@@ -1,0 +1,8 @@
+.Photos img {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.Photos .Photos {
+    background-color: rgb(57, 212, 37);
+}
